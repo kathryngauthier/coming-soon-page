@@ -1,0 +1,49 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: white;
+  font-family: sans-serif;
+  text-align: center;
+  font-family: 'Nixie One', serif;
+  color: #999;
+}
+
+a {
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.content{
+	background-color: #999;
+	color: white;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.socials{
+	margin-top: 10px;
+}
+
+img{
+	width: 80%;
+	margin: 10%
+}
